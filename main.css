@@ -1,0 +1,91 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	
+	background:grey;
+}
+.container{
+	width:60%;
+	background:white;
+	margin: 5% auto;
+
+}
+
+.blue-box{
+	margin:0px;
+	padding:0px;
+	background:blue;
+	height: 30px;
+	width: 34%;
+	content-visibility: hidden;
+}
+
+
+
+.image1{
+	height:200px;
+	border-radius: 175px;
+}
+.myname{
+	font-size:  35px;
+	margin: 20px auto;
+	text-transform: uppercase;
+	font-display: block;
+	font-weight: normal;
+	text-align: left;
+	color: blue;
+
+}
+a{
+	text-decoration: none;
+}
+
+.row{
+	margin: 5%;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.box1 {
+	align-content: center;
+	text-align: left;
+	flex: 1;
+	margin: 0 10px;
+
+}
+.box2 {
+	align-content: center;
+	text-align: left;
+	flex:2;
+}
+hr{
+	
+	color: blue;
+}
+ul li{
+	text-decoration: none;
+	list-style: none;
+}
+.info{
+	text-align: left;
+	font-size: 30px;
+	color: blue;
+	font-style: normal;
+	text-transform: capitalize;
+	margin: 10px auto;
+
+
+}
+.info-text{
+	font-size: 16px;
+	text-align: justify;
+}
+h1{
+	color: blue;
+}
+b{
+	color: blue;
+}
